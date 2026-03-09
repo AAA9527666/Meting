@@ -1,0 +1,16 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }],“重写”: [{ "source": "/(.*)", "destination": "/api/index.js" }],，“重写”：[{ "source": "/(.*)", "destination": "/api/index.js" }],
+  "functions": {
+    "api/index.js": {
+      "runtime": "vercel@2024",
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "build": {
+    "env": {
+      "NODE_VERSION": "20.x"“NODE_VERSION节点版本”: “20.x”
+    }
+  }
+}
+
